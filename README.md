@@ -4,4 +4,4 @@
 
 - Create a Screenshot of NA2's Download Error
 
-![Image](assets/images/ScreenShotBA2Error.png)
+![Image](assets/images/ScreenShotNA2Error.png)

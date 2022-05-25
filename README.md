@@ -2,7 +2,7 @@
 
 ## 1 Create the Automation
 
-- Create a Screenshot of NA2's Download Error
+- Create a Screenshot of NA2's Download Error ( `cmd+shift+4` )
 
 ![](assets/images/ScreenShotNA2Error.png)
 

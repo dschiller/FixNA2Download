@@ -12,6 +12,6 @@
 
 - Change the size to `50` percent
 
-![](assets/images/Size.png)
+![](assets/images/AdjustSize.png)
 
 ![](assets/images/50Percent.png)

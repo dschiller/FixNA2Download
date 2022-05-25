@@ -35,7 +35,11 @@ Handle Refresh Button
 
 *** Keywords ***
 Handle Refresh Button
-  Mouse Move  RefreshButton
+  FOR  ${i}  IN RANGE  999
+    Wait for Image  RefreshButton  \  5000
+    CLick  RefreshButton
+    Sleep  1 
+  END
 ```
 
 - Install Robot Framework via `pip install robotframework`
@@ -56,19 +60,4 @@ Handle Refresh Button
 
 - Create a folder `results`
 
-- Run the `.robot` script via `robot -d results HandleRefreshButton.robot`
-
-```
-dirk.schiller@MNA801 main % robot -d results HandleRefreshButton.robot
-==============================================================================
-HandleRefreshButton                                                           
-==============================================================================
-Handle Refresh Button                                                 | PASS |
-------------------------------------------------------------------------------
-HandleRefreshButton                                                   | PASS |
-1 test, 1 passed, 0 failed
-==============================================================================
-Output:  /Volumes/Samsg 500GB/Work/Coding/Robot/FixNA2Download/main/results/output.xml
-Log:     /Volumes/Samsg 500GB/Work/Coding/Robot/FixNA2Download/main/results/log.html
-Report:  /Volumes/Samsg 500GB/Work/Coding/Robot/FixNA2Download/main/results/report.html
-```
+- Run the `.robot` script in the Terminal via `robot -d results HandleRefreshButton.robot` and focus the NA2 App ( `cmd+tab` )

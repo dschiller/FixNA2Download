@@ -10,4 +10,8 @@ Handle Refresh Button
 
 *** Keywords ***
 Handle Refresh Button
-  Mouse Move  RefreshButton
+  FOR  ${i}  IN RANGE  999
+    Wait for Image  RefreshButton  \  5000
+    CLick  RefreshButton
+    Sleep  1 
+  END

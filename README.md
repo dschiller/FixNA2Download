@@ -6,7 +6,7 @@
 
 ![](assets/images/ScreenShotNA2Error.png)
 
-- Separate the `Refresh` button ( `cmd++` to Zoomin; `cmd+k` to Crop the selection )
+- Separate the `Refresh` button ( `cmd++` to Zoom in; `cmd+k` to Crop the selection )
 
 ![](assets/images/SeparateRefreshButton.png)
 

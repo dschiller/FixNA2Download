@@ -10,7 +10,7 @@
 
 ![](assets/images/SeparateRefreshButton.png)
 
-- Change the size to `50` percent
+- Change the size to `50` percent ( This step is mandatory on a Mac with Retina Display otherwise Robot Framework can not recognize the Image on the Screen )
 
 ![](assets/images/AdjustSize.png)
 

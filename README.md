@@ -61,3 +61,5 @@ Handle Refresh Button
 - Create a folder `results`
 
 - Run the `.robot` script in the Terminal via `robot -d results HandleRefreshButton.robot` and focus the NA2 App ( `cmd+tab` )
+
+- Wait until the downloads finished and the Terminal can be closed

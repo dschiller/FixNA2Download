@@ -16,4 +16,24 @@
 
 ![](assets/images/50Percent.png)
 
+- Save Image to `assets/images/RefreshButton.png`
+
+![](assets/images/RefreshButton.png)
+
 - Create a new file `HandleRefreshButton.robot`
+
+``` robot
+*** Settings ***
+Library SikuliLibrary
+
+Test Setup  Add Image Path  assets/images
+Test Teardown  Stop Remote Server
+
+*** Test Cases ***
+Handle Refresh Button
+  Handle Refresh Button
+
+*** Keywords ***
+Handle Refresh Button
+  Mouse Move  RefreshButton
+```

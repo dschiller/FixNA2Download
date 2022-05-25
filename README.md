@@ -4,4 +4,14 @@
 
 - Create a Screenshot of NA2's Download Error
 
-![Image](assets/images/ScreenShotNA2Error.png)
+![](assets/images/ScreenShotNA2Error.png)
+
+- Separate the `Refresh` button ( `cmd++` to Zoomin; `cmd+k` to Crop the selection )
+
+![](assets/images/SeparateRefreshButton.png)
+
+- Change the size to `50` percent
+
+![](assets/images/Size.png)
+
+![](assets/images/50Percent.png)

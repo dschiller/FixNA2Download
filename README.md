@@ -15,3 +15,5 @@
 ![](assets/images/AdjustSize.png)
 
 ![](assets/images/50Percent.png)
+
+- Create a new file `HandleRefreshButton.robot`
